@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #cacaca;
+  padding: 10px;
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.item {
+  background-color: red;
+  color: white;
+  font-size: 36px;
+  padding: 20px;
+  margin: 10px;
+}
+
+/* flex: flex-grow | flex-shrink | flex-basis */
+
+.items-10 {
+  flex: 1;
+}
